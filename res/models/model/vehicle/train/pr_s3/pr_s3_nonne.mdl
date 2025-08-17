@@ -436,56 +436,8 @@ return {
                     {
 				        children = {
 				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_bogie_1_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
-				            },
-                        },
-		                name = "bogie",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.3572, 0, 0, 1, },
-                    },
-					{
-				        children = {
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_bogie_2_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
-				            },
-                        },
-		                name = "bogie",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.4521, 0, 0, 1, },
-                    },
-                    {
-				        children = {
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_t18_lod0.msh",
+					            materials = { "vehicle/train/pr_s3/beweglich_t315.mtl", },
+					            mesh = "vehicle/train/pr_s3/3t15_lod0.msh",
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
@@ -507,9 +459,27 @@ return {
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
+				            {
+					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
+					            name = "rumpf_s1_tender",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.01, 0, 0.48721, 1, },
+				            },
+				            {
+					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
+					            name = "rumpf_s1_tender",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.665, 0, 0.48721, 1, },
+				            },
+				            {
+					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
+					            name = "rumpf_s1_tender",
+					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.615, 0, 0.48721, 1, },
+				            },
                         },
 		                name = "tender_s2",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.90465, 0, 0, 1, },
+		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.51682, 0, 0, 1, },
                     }, 
 				},
 				name = "RootNode",
