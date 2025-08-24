@@ -540,10 +540,10 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/pr_s3/rad_gross_lod0.msh", "vehicle/train/pr_s3/rad_gross_1_lod0.msh", "vehicle/train/pr_s3/vorderrad_lod0.msh", "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh", },
-					backBackwardParts = { 41, },
-					backForwardParts = { 40, },
-					frontBackwardParts = { 8, },
 					frontForwardParts = { 7, },
+              		backForwardParts = { 8, },
+              		frontBackwardParts = { 40, },
+              		backBackwardParts = { 41, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
