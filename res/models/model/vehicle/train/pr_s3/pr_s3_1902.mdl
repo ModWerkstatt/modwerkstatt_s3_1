@@ -1,8 +1,8 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 9.4872, 1.55, 4.3, },
-		bbMin = { -6.411, -1.55, 0, },
+		bbMax = { 8.7872, 1.55, 4.3, },
+		bbMin = { -8.794, -1.55, 0, },
 	},
 	collider = {
 		params = {
@@ -22,13 +22,13 @@ return {
 						        mesh = "vehicle/train/pr_s3/rumpf_1902_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        }, 
+					        },
 							{
 						        materials = { "vehicle/train/pr_s3/rumpf.mtl", },
 						        mesh = "vehicle/train/pr_s3/innen_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        }, 
+					        },
 							{
 						        materials = { "vehicle/train/pr_s3/glas.mtl", },
 						        mesh = "vehicle/train/pr_s3/glas_rumpf_lod0.msh",
@@ -49,16 +49,16 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_s3/licht.mtl", },
-						        mesh = "vehicle/train/pr_s3/licht/rumpf_licht_lod0.msh",
+						        mesh = "vehicle/train/pr_s3/licht/rumpf_licht_weiss_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        }, 
+					        },
 					        {
 						        materials = { "vehicle/train/pr_s3/licht.mtl", },
-						        mesh = "vehicle/train/pr_s3/licht/rumpf_licht_rev_lod0.msh",
+						        mesh = "vehicle/train/pr_s3/licht/rumpf_licht_rot_lod0.msh",
 						        name = "rumpf_S1",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        }, 
+					        },
 							--------------------------------------Vorderboogie---------------------------------------
 							{
 								children = {
@@ -103,13 +103,13 @@ return {
 						       animations = {
 							       wheels = {
 							       params = {
-							        id = "vehicle/train/pr_s3/exenter_rechts.ani",
+							        id = "vehicle/train/pr_s3/exzenter_rechts.ani",
 									},
 							       type = "FILE_REF",
 							       },
 						       },
 						        materials = { "vehicle/train/pr_s3/rumpf.mtl", },
-						        mesh = "vehicle/train/pr_s3/exenter_rechts_lod0.msh",
+						        mesh = "vehicle/train/pr_s3/exzenter_rechts_lod0.msh",
 						        name = "antrieb_rechts",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6278, -1.0129, 0.95964, 1, },
 					        },
@@ -272,13 +272,13 @@ return {
 						       animations = {
 							       wheels = {
 							       params = {
-							        id = "vehicle/train/pr_s3/exenter_links.ani",
+							        id = "vehicle/train/pr_s3/exzenter_links.ani",
 									},
 							       type = "FILE_REF",
 							       },
 						       },
 						        materials = { "vehicle/train/pr_s3/rumpf.mtl", },
-						        mesh = "vehicle/train/pr_s3/exenter_links_lod0.msh",
+						        mesh = "vehicle/train/pr_s3/exzenter_links_lod0.msh",
 						        name = "antrieb_rechts",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.6276, 1.0129, 1.0022, 1, },
 					        },
@@ -428,83 +428,83 @@ return {
                     },
 					-----------------Tender---------------------
                     {
-				        children = {
+                        children = {
 				            {
 					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_bogie_1_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
-				            },
-                        },
-		                name = "bogie",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.3572, 0, 0, 1, },
-                    },
-					{
-				        children = {
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_bogie_2_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
-				            },
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/rad_tender_lod0.msh",
-					            name = "rumpf_s1_tender",
-					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
-				            },
-                        },
-		                name = "bogie",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.4521, 0, 0, 1, },
-                    },
-                    {
-				        children = {
-				            {
-					            materials = { "vehicle/train/pr_s3/beweglich.mtl", },
-					            mesh = "vehicle/train/pr_s3/tender_lod0.msh",
+					            mesh = "vehicle/train/pr_s3/tender_22t18/rumpf_lod0.msh",
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
 				            {
 					            materials = { "vehicle/train/pr_s3/glas.mtl", },
-					            mesh = "vehicle/train/pr_s3/glas_tender_lod0.msh",
+					            mesh = "vehicle/train/pr_s3/tender_3t15/glas_lod0.msh",
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
 				            {
 					            materials = { "vehicle/train/pr_s3/licht.mtl", },
-					            mesh = "vehicle/train/pr_s3/licht/tender_licht_lod0.msh",
+					            mesh = "vehicle/train/pr_s3/licht/tender_licht_rot_lod0.msh",
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
 				            {
 					            materials = { "vehicle/train/pr_s3/licht.mtl", },
-					            mesh = "vehicle/train/pr_s3/licht/tender_licht_rev_lod0.msh",
+					            mesh = "vehicle/train/pr_s3/licht/tender_licht_weiss_lod0.msh",
 					            name = "rumpf_s1_tender",
 					            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				            },
+                            {
+				                children = {
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_22t18/bogie_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				                    },
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
+				                    },
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
+				                    },
+                                },
+	                            name = "bogie1",
+	                            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5474, 0, 0, 1, },
+                            },
+                            {
+				                children = {
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_22t18/bogie_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				                    },
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.77, 0, 0.48721, 1, },
+				                    },
+				                    {
+					                    materials = { "vehicle/train/pr_s3/beweglich.mtl", },
+					                    mesh = "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh",
+					                    name = "rumpf_s1_tender",
+					                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.77, 0, 0.48721, 1, },
+				                    },
+                                },
+	                            name = "bogie2",
+	                            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5474, 0, 0, 1, },
+                            },
                         },
-		                name = "tender_s2",
-		                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.90465, 0, 0, 1, },
-                    }, 
+	                    name = "tender_22t18",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.90465, 0, 0, 1, },
+                    },
 				},
 				name = "RootNode",
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -569,11 +569,11 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { },
-					backBackwardParts = { },
-					backForwardParts = { },
-					frontBackwardParts = { },
-					frontForwardParts = { },
+					axles = { "vehicle/train/pr_s3/rad_gross_lod0.msh", "vehicle/train/pr_s3/rad_gross_1_lod0.msh", "vehicle/train/pr_s3/vorderrad_lod0.msh", "vehicle/train/pr_s3/tender_3t15/rad_lod0.msh", },
+					backBackwardParts = { 41, },
+					backForwardParts = { 40, },
+					frontBackwardParts = { 8, },
+					frontForwardParts = { 7, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
@@ -653,7 +653,8 @@ return {
 			},
 			loadSpeed = 1,
 			multipleUnitOnly = false,
-			reversible = false,
+			reversible = true,
+            groupFileName = "vehicle/train/pr_s3/menu_pr_S3.mdl",
 		},
 	},
 	version = 1,
